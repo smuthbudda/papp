@@ -1,0 +1,67 @@
+.test-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+
+
+.states-Container{
+    padding: 1rem;
+}
+
+.card-two{
+    margin-bottom: 0px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+
+}
+.card-one{
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    
+}
+
+h5{
+    margin-bottom: 10px;
+}
+
+.counter-container {
+    display: flex;
+    justify-content: start;
+    margin-left: 10px;
+    margin-left: 10px;
+    height: 100%;
+}
+
+.counter-display {
+    font-size: 2rem;
+}
+
+.counter-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "a a a "
+        "b c d ";
+    margin-bottom: 1rem;
+}
+
+.one {
+    grid-area: a;
+    text-align: center;
+}
+
+.two {
+    grid-area: b;
+}
+
+.three {
+    grid-area: c;
+}
+
+.four {
+    margin-right: 1rem;
+    grid-area: d;
+}

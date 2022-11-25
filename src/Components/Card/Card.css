@@ -1,0 +1,7 @@
+.container{
+    border-radius: 5px;
+    border: 1px solid;
+    min-width: 100px;
+    min-height: 100px;
+    background-color: red;
+}

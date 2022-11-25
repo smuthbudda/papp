@@ -1,13 +1,24 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'FONT_NAME';
+  src: local('FONT_NAME'),
+    url('PATH_TO_YOUR_FILE') format('truetype');
+}
+
+/* Optionally you may also set other variables such as 'font-weight' while importing */
+/* In the example below the font will be used when you use a weight of '700' */
+
+@font-face {
+  font-family: 'FONT_NAME';
+  src: local('FONT_NAME'),
+    url('PATH_TO_YOUR_FILE') format('truetype');
+  font-weight: 700;
+}
+
+/* This is how you use the font */
+.selector {
+ font-family: 'FONT_NAME';
 }
